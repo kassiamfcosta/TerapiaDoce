@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.btn-wpp{
+    position:fixed;
+    width:70px;
+    height:70px;
+    bottom:40px;
+    right:40px;
+    background-color: #333333;
+    background-image: url(fotosCasaNova/whatsapp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    border-radius:50px;
+    box-shadow: 0 4px 8px #888;
+    z-index:1000;
+}
+
+.btn-car{
+    position:fixed;
+    width:70px;
+    height:70px;
+    bottom:120px;
+    right:40px;
+    background-color: #333333;
+    background-image: url(fotosCasaNova/shopping-cart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    border-radius:50px;
+    box-shadow: 0 4px 8px #888;
+    z-index:1000;
+}
+
+header {
+    background-image: url(fotosCasaNova/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; 
+}
+
+.logo img {
+    width: 300px;
+    padding: 6rem;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(fotosCasaNova/Textura.png);
+}
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    color: #3F290B;
+    text-shadow: 1px 1px 2px #8c5400;
+}
+
+p {
+    color:  #3F290B;
+}
+
+.product {
+    background-color: #FFBA5B;
+    box-shadow: 0 4px 8px #888;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 915px;
+    max-width: 100%;
+    height: 400px;
+}
+
+.product img {
+    max-width: 350px;
+    padding: 20px;
+}
+
+.product-info {
+    flex: 1;
+    text-align: center; 
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left .product-info {
+    order: 2; 
+}
+
+.left img {
+    order: 1;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.right .product-info {
+    order: 1; 
+}
+
+.right img {
+    order: 2; 
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.banner-title {
+    color: #FFBA5B;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 500px;
+}
+
+.banner-info {
+    background-image: url(fotosCasaNova/infoBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #888;
+    width: 915px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.banner-info p {
+    color: #fff;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-banner {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    width: 300px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.link-banner {
+    color: #fff;
+}
+
+.img-icones{
+    height: 20px;
+}
+
+.infos {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 915px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px #888;
+}
+
+.delivery, .payment {
+    background-color: #FFBA5B;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #848484;
+    flex-flow: row nowrap;
+    align-content: center;
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+    height: 170px;
+}
+
+.delivery img {
+    max-height: 60px;
+    min-width: 70px;
+}
+
+.delivery h2 {
+    font-size: 1.2rem;
+}
+
+.delivery p {
+    font-size: 0.9rem;
+}
+
+.payment img {
+    width: 70%;
+}
+
+.button-produto {
+    background-color: #96641F;
+    box-shadow: 0 4px 8px #8c5400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-produto:hover {
+    background-color: #3F290B;
+}
+
+footer {
+    background-color: #FFBA5B;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .product img {
+        max-width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .banner-info {
+        width: 100%;
+    }
+
+    .infos {
+        width: 100%;
+    }
+
+    .delivery, .payment {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 200px;
+        padding: 2rem;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-info, .infos {
+        padding: 10px;
+    }
+
+    .content-banner {
+        width: 100%;
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+/*página brigadeiros*/
+#hero-brigadeiro{
+    background-image: url(fotosCasaNova/Hero-brigadeiro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.main-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pricing-brig{
+    background-image: url(fotosCasaNova/img-preco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #888;
+    width: 915px;
+    max-width: 100%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.pricing-container-brig{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pricing-container-brig h2{
+    color: #FFBA5B;
+}
+
+.pricing-container-brig p{
+    color: #ffffff;
+}
+
+.container-prod{
+    width: 915px;
+    max-width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-brig{
+    background-color: #f9c967;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 4px 8px #888;
+    border-radius: 10px;
+    min-height: 380px;
+    height: 100%;
+    max-width: 250px;
+    display: grid;
+    justify-content: center;
+}
+
+.product-brig h2{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.product-brig p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #3F290B;
+}
+
+.img-prod{
+    height: 85px;
+    object-fit: contain;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+  
+.weight-button {
+    background-color: #96641F;
+    display: flex;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 22px;
+    width: 80px;
+  }
+
+.add-to-cart{
+    background-color: #96641F;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+  }
+
+.btn-img-car{
+    height: 20px;
+  }
+  
+.pags-links{
+    width: 960px;
+    padding: 20px;
+    max-width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+  }
+
+.small-banners{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.big-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-link{
+    background-image: url(fotosCasaNova/home-link.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: 120px;
+    width: 100%;
+    color: #ffba5b;
+    box-shadow: 0 4px 8px #888;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+.coxinha-link{
+    background-image: url(fotosCasaNova/coxinha-link.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: 120px;
+    width: 100%;
+    color: #ffba5b;
+    box-shadow: 0 4px 8px #888;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+.torta-link{
+    background-image: url(fotosCasaNova/torta-link.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    color: #ffba5b;
+    box-shadow: 0 4px 8px #888;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+/* página coxinhas*/
+#hero-coxinha{
+    background-image: url(fotosCasaNova/Hero-coxinha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.add-to-cart-coxinha{
+    background-color: #96641F;
+    display: flex;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-container-coxinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.brigadeiro-link{
+    background-image: url(fotosCasaNova/brigadeiro-link.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: 120px;
+    width: 100%;
+    color: #ffba5b;
+    box-shadow: 0 4px 8px #888;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+/*página torta*/
+
+#hero-torta{
+    background-image: url(fotosCasaNova/Hero-torta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* página carrinho*/
+
+#hero-carrinho{
+    background-image: url(fotosCasaNova/Hero-carrinho.png);
+    box-shadow: 0 4px 8px #888;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.main-car{
+    display: flex;
+}
+
+.banner-car{
+    background-image: url(fotosCasaNova/banner-carrinho.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #888;
+    width: 915px;
+    max-width: 100%;
+    height: 100%;
+    min-height: 200px;
+    margin: 20px auto;
+}
+
+.banner-column-car{
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    height: 60px;
+    width: 400px;
+
+}
+
+.banner-column-car h2{
+    z-index: 1;
+    font-size: 3rem;
+    color: #FFB958;
+}
+
+.banner-column-car img{
+    height: 40px;
+}
