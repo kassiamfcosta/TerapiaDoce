@@ -15,7 +15,7 @@ body {
     bottom:40px;
     right:40px;
     background-color: #333333;
-    background-image: url(fotosCasaNova/whatsapp.png);
+    background-image: url(../fotosCasaNova/whatsapp.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 45px;
@@ -31,7 +31,7 @@ body {
     bottom:120px;
     right:40px;
     background-color: #333333;
-    background-image: url(fotosCasaNova/shopping-cart.png);
+    background-image: url(../fotosCasaNova/shopping-cart.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 45px;
@@ -41,7 +41,7 @@ body {
 }
 
 header {
-    background-image: url(fotosCasaNova/Hero.png);
+    background-image: url(../fotosCasaNova/Hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(fotosCasaNova/Textura.png);
+    background-image: url(../fotosCasaNova/Textura.png);
 }
 
 h2 {
@@ -132,7 +132,7 @@ p {
 }
 
 .banner-info {
-    background-image: url(fotosCasaNova/infoBanner.png);
+    background-image: url(../fotosCasaNova/infoBanner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -295,7 +295,7 @@ footer {
 
 /*página brigadeiros*/
 #hero-brigadeiro{
-    background-image: url(fotosCasaNova/Hero-brigadeiro.png);
+    background-image: url(../fotosCasaNova/Hero-brigadeiro.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,7 +311,7 @@ footer {
     justify-content: center;
 }
 .pricing-brig{
-    background-image: url(fotosCasaNova/img-preco.png);
+    background-image: url(../fotosCasaNova/img-preco.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -440,7 +440,7 @@ footer {
 }
 
 .home-link{
-    background-image: url(fotosCasaNova/home-link.png);
+    background-image: url(../fotosCasaNova/home-link.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -457,7 +457,7 @@ footer {
 }
 
 .coxinha-link{
-    background-image: url(fotosCasaNova/coxinha-link.png);
+    background-image: url(../fotosCasaNova/coxinha-link.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -474,7 +474,7 @@ footer {
 }
 
 .torta-link{
-    background-image: url(fotosCasaNova/torta-link.png);
+    background-image: url(../fotosCasaNova/torta-link.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -491,7 +491,7 @@ footer {
 
 /* página coxinhas*/
 #hero-coxinha{
-    background-image: url(fotosCasaNova/Hero-coxinha.png);
+    background-image: url(../fotosCasaNova/Hero-coxinha.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -521,7 +521,7 @@ footer {
 }
 
 .brigadeiro-link{
-    background-image: url(fotosCasaNova/brigadeiro-link.png);
+    background-image: url(../fotosCasaNova/brigadeiro-link.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -540,7 +540,7 @@ footer {
 /*página torta*/
 
 #hero-torta{
-    background-image: url(fotosCasaNova/Hero-torta.png);
+    background-image: url(../fotosCasaNova/Hero-torta.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -553,7 +553,7 @@ footer {
 /* página carrinho*/
 
 #hero-carrinho{
-    background-image: url(fotosCasaNova/Hero-carrinho.png);
+    background-image: url(../fotosCasaNova/Hero-carrinho.png);
     box-shadow: 0 4px 8px #888;
     background-position: center;
     background-repeat: no-repeat;
@@ -569,7 +569,7 @@ footer {
 }
 
 .banner-car{
-    background-image: url(fotosCasaNova/banner-carrinho.png);
+    background-image: url(../fotosCasaNova/banner-carrinho.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
