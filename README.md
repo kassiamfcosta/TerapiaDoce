@@ -7,5 +7,5 @@ https://docs.google.com/document/d/1pK7gMs--PhX5hKHp_2zcl9kHjAzhVSAPf-cdKXloxiM/
 
 # Tecnologias utilizadas: 
 
-Front End: Firefox, Instagantt, Figma, Google Docs, Google Forms, Lucidchart, Visual Studio Code (VS Code), Git, GitHub, HTML, CSS, Flaticon e Freepik,
+Front End: HTML, CSS, Flaticon e Freepik,
 Back End: Ainda não implementado
